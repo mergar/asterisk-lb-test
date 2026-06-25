@@ -1,3 +1,7 @@
-# setid(int) destination(sip uri) flags(int) priority(int) attrs(string)
-1 sip:172.16.0.144:5060 0 16-32 custom_header=TestCheck
-1 sip:172.16.0.145:5060 0 16-32 custom_header=TestCheck
+# setid(int) destination(sip uri) flags(int)
+1 sip:172.16.0.144:5060 0
+1 sip:172.16.0.145:5060 0
+
+# with priority:
+#1 sip:172.16.0.144:5060 0 16-32 custom_header=TestCheck
+#1 sip:172.16.0.145:5060 0 16-32 custom_header=TestCheck
